@@ -6,11 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["websockets", "websocket", "ws", "stream", "streams"],
+  "keywords": [
+    "websockets",
+    "websocket",
+    "ws",
+    "stream",
+    "streams"
+  ],
   "author": "Avital Oliver <avital@aoliver.org>",
   "repository": {
     "type": "git",
     "url": "git://github.com/avital/websocket-json-stream.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "*",
+    "@types/ws": "*"
+  }
 }
