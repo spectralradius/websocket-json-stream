@@ -10,4 +10,6 @@ declare class WebSocketJSONStream extends stream.Duplex {
     ws: webSocket;
 }
 
+declare namespace WebSocketJSONStream {}
+
 export = WebSocketJSONStream;
